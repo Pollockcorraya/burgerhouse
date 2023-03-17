@@ -1,0 +1,73 @@
+@media only screen and (max-width:480px){
+    
+    #header {
+        padding-bottom: 82% ;
+    }
+    .logo-img {
+        width: 35%;
+    }
+    .call-now img {
+        padding-right: 15px;
+    }
+    .hero-bg {
+        position: relative;
+        bottom: 25%;
+    }
+    .image img {
+        width: 100%;
+    }
+    .content-items {
+        flex-direction: column;
+      }
+  
+    .content-text {
+        margin-top: 11%;
+        text-align: center;
+    }
+    .content-text h1 {
+        font-size: 43px;
+    }
+    .content-text p {
+        width: 70%;
+        padding: 0 5px;
+        margin: 0 auto 2% auto;
+    }
+    .content-text h3 {
+        font-size: 30px;
+    }
+    
+    .gellary {
+        flex-direction: column;
+    }
+    .big-img {
+        margin-bottom: 5%;
+    }
+    .service-text h5 {
+        width: 46%;
+    }
+    .card-body {
+        padding: 0!important;
+    }
+    .left-img {
+        display: none;
+    }
+    .bottom-img {
+        display: none;
+    }
+    .item-1, .item-2, .item-3 {
+        width: 100%;
+    }
+    .item-2 {
+        margin-top: 13%;
+    }
+    .item-3 {
+        margin-top: 43px;
+    }
+    .contact-form input {
+        padding: 5px 5px;
+    }
+
+    .bottle {
+        display: none;
+    }
+}

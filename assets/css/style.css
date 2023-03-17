@@ -1,0 +1,280 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13.13px;
+}
+/* Common CSS */
+section {
+    margin-top: 5%;
+}
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 41px;
+  color: #3d2514;
+}
+h5 { 
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  color: #3d2514;
+}
+/* Header CSS */
+#header {
+    background-color: #ffc759;
+    padding-bottom: 15%;
+}
+.info {
+    padding-top: 20px;
+}
+.call-now img {
+    padding-right: 30px;
+}
+.call-now a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #3d2514;
+    font-weight: bold;
+}
+
+/* Menu CSS */
+.menu ul li a {
+    font-size: 16px;
+    color: #3d2514!important;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    margin-right: 33px;
+    
+}
+.menu .navbar-nav li:last-child a {
+    padding-right: 0;
+    margin-right: 0;
+}
+/* Hero CSS */
+.hero-content p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+    border: 1px dashed black;
+}
+.content-text {
+    margin-top: 25%;
+  }
+.content-text p {
+    border: 1px dashed black;
+    width: 95%;
+    padding-left: 12px;
+}
+.content-text h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 87px;
+    text-shadow: 1px 3px #fff;
+}
+.content-text h3 {
+    text-shadow: 1px 3px #fff;
+}
+
+.image img {
+  width: 105%;
+}
+
+.content-items {
+  position: relative;
+}
+.image {
+  position: absolute;
+  top: -40%;
+}
+
+
+
+
+
+  /* Gellary CSS */
+  .img img {
+    height: 168px;
+  }
+
+  /* Service CSS */
+  .service-text h5 {
+    background-color: #ffc045;
+    width: 19%;
+    margin: 0 auto;
+    padding: 2px;
+    margin-bottom: 20px;
+  }
+ 
+  .btn {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    color: #fff;
+    border-radius: 0;
+    font-size: 8px;
+  }
+  .item-1{
+    margin-top: 39px;
+  }
+  .item-3 {
+    margin-top: 46px;
+  }
+  /* Slick Slider CSS */
+  .slick-dots {
+    position: absolute;
+    left: 1%;
+    bottom: 8%;
+  }
+  .slick-dots li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+  }
+  .slick-dots li.slick-active {
+    background-color: #ffc045;
+  }
+  .slick-dots button{
+    display: none;
+  }
+  .card {
+    margin-top: 8%;
+  }
+  .card-body h3 {
+    font-size: 36px;
+  }
+  .card-text {
+    font-size: 17px;
+    padding-right: 23px;
+  }
+
+  .reservation {
+    position: relative;
+  }
+  .left-img img {
+    height: 250px;
+  }
+  .left-img {
+    position: absolute;
+    bottom: 100%;
+    transform: translateY(64%);
+  }
+  .contact-form {
+    position: relative;
+  }
+  .contact-form input {
+    width: 40%;
+    display: inline-block;
+    padding: 15px 5px;
+    margin: 10px 10px;
+    text-transform: capitalize;
+  }
+  .contact-form button {
+    width: 40%;
+    display: inline-block;
+    padding: 15px 0;
+    margin: 10px 10px;
+    background-color: red;
+  }
+  .contact-form a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Alfa Slab One', cursive;
+  }
+  .bottom-img {
+    position: absolute;
+    left: 81%;
+    top: 100%;
+    transform: translate(0 ,0%);
+  }
+  .bottom-img img {
+    height: 410px;
+  }
+
+  .bottle {
+    position: absolute;
+    left: -10%;
+    bottom: 100%;
+    transform: translate(0, 89%);
+  }
+  .bottle img {
+    height: 356px;
+  }
+
+
+  /* footer CSS */
+  #footer {
+    margin-top: 8%;
+    
+  }
+
+  .footer {
+    background-image: url(../image/footer-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 404px;
+  }
+  .footer-logo img {
+    width: 80%;
+  }
+  .footer-text p {
+    color: #fff;
+  }
+  .footer-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  .fa-location-dot {
+    padding-right: 15px;
+    font-size: 25px;
+  }
+  .fa-envelope {
+    padding-right: 15px;
+    font-size: 20px; 
+  }
+  .location, .mail {
+    padding: 5px 0;
+  }
+  .footer-widget {
+    padding-top: 12%;
+  }
+  
+ .fa-instagram {
+  display: inline-block;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 3px 4px;
+  margin-right: 10px;
+ }
+ .fa-facebook-f {
+  display: inline-block;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 3px 6px;
+  margin-right: 10px;
+ }
+ .fa-twitter {
+  display: inline-block;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 10px;
+ }
+ .fa-whatsapp {
+  display: inline-block;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 3px 5px;
+ }
